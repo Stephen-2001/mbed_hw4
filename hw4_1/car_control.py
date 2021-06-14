@@ -48,6 +48,7 @@ def get():
         time.sleep(d1/15)
         print('turn')
         s.write("/turn/run 100 0.01 \n".encode())
+        
         time.sleep(1.2)
         print('back_second_time')
         s.write("/goStraight/run -100 \n".encode())
@@ -62,7 +63,7 @@ def get():
         time.sleep(d1/15)
         print('turn')
         s.write("/turn/run 100 -0.01 \n".encode())
-        time.sleep(1.2)
+        time.sleep(1.1)
         print('back_second_time')
         s.write("/goStraight/run -100 \n".encode())
         d2 = d2 + 7
