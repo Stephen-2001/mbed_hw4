@@ -12,6 +12,7 @@ This part, I use two method to control the BBcar. I will explain the difference 
 ##### How does it work
 1. First, the user should enter the parameters about distance and direction. For example, (30, 30, west).
 2. The first parameter is the distance between car and parking space in north and south direction. The second parameter is the distance between the two in east and west direction. The third string is determined the relative position of the parking space.
-3.  
+3. The information will read by `car_control.py` and then start to control the car to enter the parking space.
+4. I use different value of `time.sleep(time)` to control the time the car should move. 
 ## Part 2 in the folder hw4_2_2
 ## Part 3 in the folder hw4_3
